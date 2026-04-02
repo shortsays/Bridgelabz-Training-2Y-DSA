@@ -1,0 +1,1 @@
+import java.util.*;class P1{public static void main(String[] a){Scanner s=new Scanner(System.in);int[] x=new int[10];for(int i=0;i<10;i++)x[i]=s.nextInt();for(int i=0;i<10;i++){if(x[i]<0)System.out.println("invalid age");else if(x[i]>=18)System.out.println("The student with the age "+x[i]+" can vote");else System.out.println("The student with the age "+x[i]+" cannot vote");}}}

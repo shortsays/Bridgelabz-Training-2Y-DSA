@@ -1,0 +1,1 @@
+import java.util.*;class P5{public static void main(String[] a){Scanner s=new Scanner(System.in);int n=s.nextInt();int temp=n,c=0;while(temp!=0){c++;temp/=10;}int[] d=new int[c];for(int i=0;i<c;i++){d[i]=n%10;n/=10;}for(int i=0;i<c;i++)System.out.print(d[i]+" ");}}

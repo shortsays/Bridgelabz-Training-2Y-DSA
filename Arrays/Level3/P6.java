@@ -1,0 +1,1 @@
+import java.util.*;class P6{public static void main(String[] a){Scanner s=new Scanner(System.in);String t=s.next();char[] c=t.toCharArray();int[] f=new int[c.length];for(int i=0;i<c.length;i++){if(c[i]=='0')continue;f[i]=1;for(int j=i+1;j<c.length;j++){if(c[i]==c[j]){f[i]++;c[j]='0';}}}for(int i=0;i<c.length;i++)if(c[i]!='0')System.out.println(c[i]+" "+f[i]);}}

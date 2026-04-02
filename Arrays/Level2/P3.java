@@ -1,0 +1,1 @@
+import java.util.*;class P3{public static void main(String[] a){Scanner s=new Scanner(System.in);int n=s.nextInt();int max=10;int[] d=new int[max];int idx=0;while(n!=0&&idx<max){d[idx++]=n%10;n/=10;}int l=0,sl=0;for(int i=0;i<idx;i++){if(d[i]>l){sl=l;l=d[i];}else if(d[i]>sl&&d[i]!=l)sl=d[i];}System.out.println(l+" "+sl);}}

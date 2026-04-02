@@ -1,0 +1,1 @@
+import java.util.*;class LinearSearch1{public static void main(String[] a){Scanner s=new Scanner(System.in);int n=s.nextInt();int[] x=new int[n];for(int i=0;i<n;i++)x[i]=s.nextInt();int idx=-1;for(int i=0;i<n;i++){if(x[i]<0){idx=i;break;}}System.out.println(idx);}}

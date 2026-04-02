@@ -1,0 +1,1 @@
+import java.util.*;class P4{public static void main(String[] a){Scanner s=new Scanner(System.in);double[] x=new double[10];double sum=0;int i=0;while(true){double v=s.nextDouble();if(v<=0||i==10)break;x[i++]=v;}for(int j=0;j<i;j++)sum+=x[j];System.out.println(sum);}}

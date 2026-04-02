@@ -1,0 +1,1 @@
+import java.util.*;class LinearSearch2{public static void main(String[] a){Scanner s=new Scanner(System.in);int n=s.nextInt();s.nextLine();String[] arr=new String[n];for(int i=0;i<n;i++)arr[i]=s.nextLine();String t=s.nextLine();String res="Not Found";for(int i=0;i<n;i++){if(arr[i].contains(t)){res=arr[i];break;}}System.out.println(res);}}

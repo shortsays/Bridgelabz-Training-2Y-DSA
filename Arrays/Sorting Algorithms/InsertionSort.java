@@ -1,0 +1,1 @@
+import java.util.*;class InsertionSort{public static void main(String[] a){Scanner s=new Scanner(System.in);int n=s.nextInt();int[] x=new int[n];for(int i=0;i<n;i++)x[i]=s.nextInt();for(int i=1;i<n;i++){int key=x[i],j=i-1;while(j>=0&&x[j]>key){x[j+1]=x[j];j--;}x[j+1]=key;}for(int i=0;i<n;i++)System.out.print(x[i]+" ");}}

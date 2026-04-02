@@ -1,0 +1,1 @@
+import java.util.*;class BubbleSort{public static void main(String[] a){Scanner s=new Scanner(System.in);int n=s.nextInt();int[] x=new int[n];for(int i=0;i<n;i++)x[i]=s.nextInt();for(int i=0;i<n;i++){for(int j=0;j<n-i-1;j++){if(x[j]>x[j+1]){int t=x[j];x[j]=x[j+1];x[j+1]=t;}}}for(int i=0;i<n;i++)System.out.print(x[i]+" ");}}

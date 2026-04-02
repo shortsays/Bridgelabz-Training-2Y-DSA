@@ -1,0 +1,1 @@
+import java.util.*;class P3{public static void main(String[] a){Scanner s=new Scanner(System.in);int n=s.nextInt();for(int i=1;i<=10;i++)System.out.println(n+" * "+i+" = "+(n*i));}}

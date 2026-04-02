@@ -1,0 +1,1 @@
+import java.util.*;class SelectionSort{public static void main(String[] a){Scanner s=new Scanner(System.in);int n=s.nextInt();int[] x=new int[n];for(int i=0;i<n;i++)x[i]=s.nextInt();for(int i=0;i<n-1;i++){int m=i;for(int j=i+1;j<n;j++)if(x[j]<x[m])m=j;int t=x[i];x[i]=x[m];x[m]=t;}for(int i=0;i<n;i++)System.out.print(x[i]+" ");}}

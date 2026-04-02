@@ -1,0 +1,1 @@
+import java.util.*;class BinarySearch2{public static void main(String[] a){Scanner s=new Scanner(System.in);int n=s.nextInt();int[] arr=new int[n];for(int i=0;i<n;i++)arr[i]=s.nextInt();int l=0,r=n-1;while(l<=r){int m=(l+r)/2;if((m==0||arr[m]>arr[m-1])&&(m==n-1||arr[m]>arr[m+1])){System.out.println(arr[m]);return;}else if(m>0&&arr[m]<arr[m-1])r=m-1;else l=m+1;}}}

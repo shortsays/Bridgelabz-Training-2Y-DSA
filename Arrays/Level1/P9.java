@@ -1,0 +1,1 @@
+import java.util.*;class P9{public static void main(String[] a){Scanner s=new Scanner(System.in);int r=s.nextInt(),c=s.nextInt();int[][] m=new int[r][c];for(int i=0;i<r;i++)for(int j=0;j<c;j++)m[i][j]=s.nextInt();int[] arr=new int[r*c];int k=0;for(int i=0;i<r;i++)for(int j=0;j<c;j++)arr[k++]=m[i][j];for(int i=0;i<arr.length;i++)System.out.print(arr[i]+" ");}}

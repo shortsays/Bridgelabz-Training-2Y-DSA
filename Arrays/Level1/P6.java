@@ -1,0 +1,1 @@
+import java.util.*;class P6{public static void main(String[] a){Scanner s=new Scanner(System.in);double[] h=new double[11];double sum=0;for(int i=0;i<11;i++){h[i]=s.nextDouble();sum+=h[i];}System.out.println(sum/11);}}
