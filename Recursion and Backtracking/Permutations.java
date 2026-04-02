@@ -1,0 +1,1 @@
+import java.util.*;class Permutations{static void perm(String s,String c){if(s.length()==0){System.out.println(c);return;}for(int i=0;i<s.length();i++)perm(s.substring(0,i)+s.substring(i+1),c+s.charAt(i));}public static void main(String[] a){Scanner s=new Scanner(System.in);String t=s.next();perm(t,"");}}

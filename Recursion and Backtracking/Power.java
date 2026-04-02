@@ -1,0 +1,1 @@
+import java.util.*;class Power{static int p(int x,int n){if(n==0)return 1;if(n%2==0){int t=p(x,n/2);return t*t;}return x*p(x,n-1);}public static void main(String[] a){Scanner s=new Scanner(System.in);int x=s.nextInt(),n=s.nextInt();System.out.println(p(x,n));}}

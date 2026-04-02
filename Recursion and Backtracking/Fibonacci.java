@@ -1,0 +1,1 @@
+import java.util.*;class Fibonacci{static int f(int n){if(n<=1)return n;return f(n-1)+f(n-2);}public static void main(String[] a){Scanner s=new Scanner(System.in);int n=s.nextInt();System.out.println(f(n));}}
