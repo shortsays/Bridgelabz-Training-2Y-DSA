@@ -1,0 +1,1 @@
+import java.util.*;class PairSum{public static void main(String[]a){Scanner s=new Scanner(System.in);int n=s.nextInt();int[] arr=new int[n];for(int i=0;i<n;i++)arr[i]=s.nextInt();int t=s.nextInt();Set<Integer> set=new HashSet<>();for(int x:arr){if(set.contains(t-x)){System.out.println("true");return;}set.add(x);}System.out.println("false");}}
