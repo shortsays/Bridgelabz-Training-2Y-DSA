@@ -1,0 +1,1 @@
+import java.util.*;class QueueUsingStacks{static Stack<Integer>s1=new Stack<>(),s2=new Stack<>();static void enq(int x){s1.push(x);}static int deq(){if(s2.isEmpty())while(!s1.isEmpty())s2.push(s1.pop());return s2.isEmpty()?-1:s2.pop();}public static void main(String[]a){enq(1);enq(2);System.out.println(deq());System.out.println(deq());}}

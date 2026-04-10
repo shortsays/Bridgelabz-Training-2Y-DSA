@@ -1,0 +1,1 @@
+import java.util.*;class TwoSum{public static void main(String[]a){Scanner s=new Scanner(System.in);int n=s.nextInt();int[] arr=new int[n];for(int i=0;i<n;i++)arr[i]=s.nextInt();int t=s.nextInt();Map<Integer,Integer>m=new HashMap<>();for(int i=0;i<n;i++){if(m.containsKey(t-arr[i])){System.out.println(m.get(t-arr[i])+" "+i);return;}m.put(arr[i],i);}System.out.println(-1);}}
